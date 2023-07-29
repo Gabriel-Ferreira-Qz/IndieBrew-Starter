@@ -19,6 +19,6 @@ Para visualizar o projeto, você pode acessar a [demonstração online](https://
 
 ## Autor do Projeto
 
-Este projeto foi desenvolvido por [Gabriel Queiroz](https://www.linkedin.com/in/gabriel-queiroz-7a1428212/). Se desejar saber mais ou entrar em contato com, acesse o meu perfil no LinkedIn.
+Este projeto foi desenvolvido por [Gabriel Queiroz](https://www.linkedin.com/in/gabriel-queiroz-7a1428212/). Se deseja entrar em contato, acesse o meu perfil no LinkedIn.
 
 Agradeço por conferir este projeto e espero que tenha uma ótima experiência explorando a página da IndieBrew! 😄
