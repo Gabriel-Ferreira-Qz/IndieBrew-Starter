@@ -1,33 +1,27 @@
+# IndieBrew Starter: Landing Page
 
-# Welcome to Codewell! 👋
+<div align="center">
+  <img src="./Assets/Logo.svg" alt="Meteora: Landing Page E-Commerce">
+</div>
 
-Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects. 
+#
 
-Free or paid, all templates are high quality and will make great portfolio pieces.
+A Adopet é uma inovadora empresa fictícia de adoção, que tem como objetivo conectar adotantes e animais que buscam um lar. O projeto foi realizado seguindo o design do [Figma](https://www.figma.com) fornecido no 4º desafio Front-End da Alura. Um prazo de 4 semanas foi estabelecido para atender às demandas detalhadas no [Trello](https://trello.com/pt-BR?&aceid=&adposition=&adgroup=148159506607&campaign=19269516466&creative=641463051732&device=c&keyword=trello&matchtype=e&network=g&placement=&ds_kids=p74543507295&ds_e=GOOGLE&ds_eid=700000001557344&ds_e1=GOOGLE&gad=1&gclid=CjwKCAjwzo2mBhAUEiwAf7wjksrPgC2nQlMN04GbQw7YH1IJV0AN-7F3fqHjYUy35ouy2vv3QZ7HCRoCkgUQAvD_BwE&gclsrc=aw.ds).
 
-### I've completed the challenge, now what?
-
-We recommend using one of these two websites to deploy your projects
-
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
-
-They're super easy to setup and you should have your website up and running in no time, just follow their instructions.
+ 
 
 
-### Submit your solution to Codewell
+## Layout
+![Tela Desktop](./Design/Captura%20de%20Tela%20(13).png)
 
-Visit the relevant challenge on [Codewell](https://codewell.cc) and click on 'Submit Solution' right under the challenge.
-Enter all the title, Github repo URL, Live URL (Netlify or GH Pages), and tell the community what challenges you've faced.
+## Tecnologias Utilizadas
+1. [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+2. [Sass](https://sass-lang.com/)
+3. [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-### Join our community on Slack
+## Como iniciar este projeto?
 
-If you want more real-time communication, you can visit our community on [Slack](https://join.slack.com/t/codewell-hq/shared_invite/zt-ni8c9g8h-gNYWrmqQ3Uh37dcLg9~LMQ). 
+Para iniciar o projeto, basta clicar neste [link demonstrativo](https://indie-brew-starter.vercel.app/). Ele irá levá-lo diretamente para a demonstração do projeto, onde você poderá explorar suas funcionalidades em detalhes.
 
-### Fonts Used
-
-https://fonts.google.com/specimen/DM+Sans
-
-
-background: radial-gradient(circle at top left, #ebcbf7 10%, #fcf3ef, #fdfcf9 40%);
-radial-gradient(ellipse at center, #F6E7F9 60%, #FAF0F9, #FCF7F9)
+## Autor do Projeto
+[Linkedin](https://www.linkedin.com/in/gabriel-queiroz-7a1428212/)
