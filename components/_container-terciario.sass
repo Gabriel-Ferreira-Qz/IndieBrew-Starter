@@ -1,0 +1,39 @@
+@import '../abstract/_variaveis'
+
+.terciario
+    .imagem-celular
+        width: 70%
+        margin-right: auto
+    .terciario-informacao
+        .terciario-titulo
+            font-size: $tamanho-fonte * 2.25
+            line-height: 40px
+        .terciario-waitlsit
+            color: #664EFC
+            font-weight: 700
+            margin-top: 1rem
+            text-decoration: none
+    
+@media screen and (max-width: 1024px)
+    .terciario
+        padding: 3em 0 4em
+        display: grid
+        grid-template-columns: 40% 60%
+        width: 90%
+        .imagem-celular
+            width: 90%
+        .terciario-informacao
+            margin: 0
+            .terciario-texto
+                width: auto
+
+@media screen and (max-width: 480px)
+    .terciario
+        display: flex
+        flex-direction: column
+        .imagem-celular
+            width: 100%
+        .terciario-informacao
+            margin-top: 3rem
+            .terciario-titulo
+                font-size: $tamanho-fonte * 2

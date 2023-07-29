@@ -1,0 +1,71 @@
+@import '../abstract/_variaveis'
+
+@mixin margin-center($margin-top, $margin-bottom, $width)
+    margin: $margin-top auto $margin-bottom
+    width: $width
+
+.container 
+    display: grid
+    grid-template-columns: 1fr 1fr
+    align-items: center
+    @include margin-center(0 , 0 , 80%)
+    padding: 4em 0 5em
+    div
+        display: flex
+        flex-direction: column
+        .container-titulo
+            font-size: $tamanho-fonte * 3
+            font-weight: 700  
+        .container-texto
+            margin-top: 1rem 
+            color: $cor-texto
+            line-height: 22px
+        .container-botao
+            margin: 1rem auto 1rem 0
+            padding: 1rem 1.875rem
+            background-color: $cor-botao
+            color: $cor-branco-principal
+            border-radius: 4px
+            text-decoration: none
+            &:hover 
+                background-color: $cor-rosa
+                color: #000
+                transition: .25s all
+            span
+                font-weight: 500
+        .container-avatar 
+            width: 227px
+        .container-usuarios
+            color: $cor-texto
+            margin-top: 1rem
+            span
+                color: $cor-botao
+                font-weight: 700
+    img 
+        width: 100%
+    
+@media screen and (max-width: 1024px)
+    .container 
+        display: flex
+        flex-direction: column-reverse
+        padding: 3em 0 7em
+        width: 90%
+        div
+            margin-top: 3em
+            .container-titulo
+                font-size: $tamanho-fonte * 3.25
+            .container-texto
+                width: 80%
+        img 
+            width: 50%
+
+@media screen and (max-width: 480px)
+    .container
+        div 
+            .container-titulo
+                font-size: $tamanho-fonte * 3
+                line-height: 50px
+            .container-texto
+                width: auto
+        img
+            width: 90%

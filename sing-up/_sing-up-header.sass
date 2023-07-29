@@ -1,0 +1,49 @@
+@import '../abstract/_variaveis'
+    
+@mixin margin-center($margin-top, $margin-bottom, $width)
+    margin: $margin-top auto $margin-bottom
+    width: $width
+
+@mixin link-decoration($decoration, $color)
+    text-decoration: $decoration
+    color: $color
+
+@mixin bg-image($url-image, $repeat, $position)
+    background-image: url($url-image)
+    background-repeat: $repeat
+    background-position: $position
+    width: 2rem
+    aspect-ratio: 1
+
+.cabecalho__sing-up
+    display: flex
+    justify-content: space-between
+    align-items: center
+    @include margin-center(0 , 0 , 80%)
+    nav
+        .cabecalho__home
+            @include link-decoration(none , #000 )
+            font-weight: 700
+            display: flex
+            align-items: center
+            gap: 1rem
+            font-size: $tamanho-fonte *1.125
+            &::before
+                content: ''
+                @include bg-image("../Assets/Back Arrow.svg" , no-repeat , center)
+                display: inline-block
+                background-color: #FCF6FA
+                border: 1px solid #CBCBCB
+                border-radius: 4px
+            
+
+@media screen and (max-width: 768px)
+    .cabecalho__sing-up
+        width: 90%
+
+@media screen and (max-width: 480px)
+     .cabecalho__sing-up
+        nav
+            .cabecalho__home
+                span
+                    display: none

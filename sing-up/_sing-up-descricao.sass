@@ -1,0 +1,25 @@
+@import '../abstract/_variaveis'
+
+
+.container__esquerdo
+    display: flex
+    flex-direction: column
+    gap: 30px
+    width: 75%
+    .container__esquerdo__titulo
+        font-size: $tamanho-fonte * 2.25
+        font-weight: 700
+    .container__esquerdo__conteudo
+        display: flex
+        gap: 8px
+        font-size: $tamanho-fonte * 1.125
+        .conteudo__texto  
+            span
+                font-weight: 700
+        
+@media screen and (max-width: 768px)
+    .container__esquerdo
+        width: auto
+
+        
+        

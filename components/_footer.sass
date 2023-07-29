@@ -1,0 +1,67 @@
+@import '../abstract/_variaveis'
+
+@mixin margin-center($margin-top, $margin-bottom, $width)
+    margin: $margin-top auto $margin-bottom
+    width: $width
+
+footer
+    background-color: $cor-branco-principal
+    padding: 3rem 0
+    section 
+        display: grid
+        grid-template-columns: 1fr 1fr 
+        @include margin-center(0, 0 , 80% )
+        color: $cor-texto
+        .rodape-empresa
+            width: 60%
+            .rodape-empresa-titulo
+                font-size: $tamanho-fonte * 1.25
+                font-weight: 700
+                color: #000
+            .rodape-empresa-descricao
+                color: $cor-texto
+                margin: 1em 0 2em
+                line-height: 20px
+        .rodape-lista
+            display: flex
+            justify-content: space-between
+            gap: 4em
+            li
+                display: flex
+                flex-direction: column
+                gap: 16px
+                .lista-titulo
+                    font-size: $tamanho-fonte * 1.25
+                    font-weight: 700
+                    color: #000
+                .lista-link
+                    text-decoration: none
+                    color: $cor-texto
+                    &:hover
+                        color: #000
+                        transition: 0.25s all
+        
+@media screen and (max-width: 1024px)
+    footer
+        section
+            grid-template-columns: 1.75fr 1.25fr
+            width: 90%
+            .rodape-empresa
+                width: 85%
+            .rodape-lista
+                flex-wrap: wrap
+    
+@media screen and (max-width: 480px)
+    footer
+        section
+            display: flex
+            flex-direction: column
+            .rodape-empresa
+                width: auto
+                margin-bottom: 3em
+            .rodape-lista
+                gap: 85px
+        
+        
+    
+    

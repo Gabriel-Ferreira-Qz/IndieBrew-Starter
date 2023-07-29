@@ -1,0 +1,66 @@
+@import '../abstract/_variaveis'
+    
+@mixin link-decoration($decoration, $color)
+    text-decoration: $decoration
+    color: $color
+
+.sing-up__formulario
+        padding: 3em 3.5em
+        background-color: #FFF
+        border-radius: 8px
+        .formulario__titulo
+            margin-bottom: 1em 
+            font-size: $tamanho-fonte * 1.5 
+            font-weight: 700
+            color: #000
+        .formulario__conteudo 
+            display: flex
+            flex-direction: column
+            label 
+                font-weight: 700
+                font-size: $tamanho-fonte 
+            input
+                margin: 0.5em 0 1.75em
+                padding: 1em
+                border-radius: 4px
+                border: 1px solid #CBCBCB
+                &::placeholder
+                    font-family: $fonte-principal
+            .formulario__checkbox
+                display: flex
+                flex-direction: row-reverse
+                gap: 8px
+                margin-bottom: 1.5em
+                .checkbox__texto
+                    font-weight: 500
+                    line-height: 20px
+                    font-size: $tamanho-fonte
+                    p
+                        display: inline
+                        .texto__link
+                            @include link-decoration(underline , $cor-botao)
+                            font-weight: 700
+                .checkbox__botao
+                    margin: 0 0 1em
+                    cursor: pointer
+                    border: 1px solid #CBCBCB
+            .formulario__botao
+                padding: 1em
+                border: none
+                border-radius: 4px
+                background-color: $cor-botao
+                color: #FFF
+                font-weight: 700
+                cursor: pointer
+                &:hover 
+                    background-color: $cor-rosa
+                    color: #000
+                    transition: .25s all
+
+@media screen and (max-width: 480px)
+    .sing-up__formulario
+        padding: 3em
+
+
+
+                

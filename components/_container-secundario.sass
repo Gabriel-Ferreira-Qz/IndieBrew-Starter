@@ -1,0 +1,31 @@
+@import '../abstract/_variaveis'
+
+.secundario
+    div
+        .secundario-titulo
+            font-size: $tamanho-fonte * 2.25
+            line-height: 40px
+        .secundario-social-media
+            color: $cor-botao
+            font-weight: 700
+            margin-top: 1rem
+            text-decoration: none
+    .secundario-imagem
+        width: 70%
+        margin-left: auto
+    
+@media screen and (max-width: 1024px)
+    .secundario
+        display: grid 
+        grid-template-columns: 1.75fr 1.25fr
+        padding: 2em 0 0
+        div
+        .secundario-imagem
+            width: 100%
+
+@media screen and (max-width: 480px)
+    .secundario
+        display: flex
+        flex-direction: column-reverse 
+        .secundario-titulo
+            font-size: $tamanho-fonte * 2
