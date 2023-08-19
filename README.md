@@ -5,7 +5,7 @@ A IndieBrew Starter é uma Landing Page que foi criada como parte de um desafio 
 ![Tela Desktop](./Design/Captura%20de%20Tela%20(13).png)
 
 # 🌟 Visão Geral
-O projeto consiste em uma página de apresentação com um layout atraente e moderno. A Landing Page é composta por duas seções principais: a tela inicial e uma página de inscrição. A tela inicial apresenta uma visão geral do produto ou serviço, enquanto a página de inscrição permite aos visitantes se inscreverem ou obterem mais informações. 
+O projeto consiste em uma página de apresentação com um layout atraente e moderno. A Landing Page é composta por duas seções principais: a tela inicial e uma página de inscrição. A tela inicial apresenta uma visão geral do produto ou serviço, enquanto a página de inscrição permite aos visitantes se inscreverem em um formulario. 
 
 ## 🛠️ Tecnologias Utilizadas
 Neste projeto, foram utilizadas as seguintes tecnologias:
@@ -14,7 +14,6 @@ Neste projeto, foram utilizadas as seguintes tecnologias:
 
 2. 💅 [Sass](https://sass-lang.com/) - Pré-processador CSS que facilita a estilização da página.
 
-3. 🧪 [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - Linguagem de programação utilizada para adicionar interatividade e funcionalidades à página.
 
 ## 👀 Como visualizar o projeto?
 
