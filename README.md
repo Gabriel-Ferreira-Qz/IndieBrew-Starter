@@ -1,6 +1,6 @@
 # 🚀 IndieBrew Starter: Landing Page 
 
-A IndieBrew Starter é uma Landing Page que foi criada como parte de um desafio de desenvolvimento web. O design original foi fornecido pelo site [Codewell](https://www.codewell.cc/), e o objetivo foi recriá-lo em uma aplicação web para praticar meus conhecimentos em HTML e SASS.
+A IndieBrew Starter é uma Landing Page que foi criada como parte de um desafio de desenvolvimento web. O design original foi fornecido pelo site [Codewell](https://www.codewell.cc/), e o objetivo foi recriá-lo em um website para praticar meus conhecimentos em HTML e SASS.
 
 ![Tela Desktop](./Design/Captura%20de%20Tela%20(13).png)
 
